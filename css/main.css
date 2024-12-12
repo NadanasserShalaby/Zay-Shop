@@ -1,0 +1,175 @@
+:root {
+    --main-color: #59ab6e;
+    --second-color: #212934;
+    --third-color: rgb(188, 189, 189);
+}
+
+/* body::selection{
+    background-color: var(--main-color);
+    color: var(--third-color);
+} */
+::selection {
+    background-color: var(--main-color);
+    color: #E9EFF4;
+}
+
+body,
+a,
+h2,
+h1,
+p,
+div,i {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 200;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 30px
+}
+
+.gray-txt {
+    color: var(--third-color);
+}
+
+.bg-sec {
+    background-color: #E9EFF4;
+}
+
+.second-color {
+    background-color: var(--second-color);
+}
+
+.border-light {
+    border-color: #2d343f !important;
+}
+
+.ancho-txt a {
+    text-decoration: none;
+    color: #dcdde1;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 10px 0;
+    transition: all 0.5s ease-out;
+
+}
+
+.ancho-txt a:hover {
+    color: var(--main-color);
+}
+
+.main-color {
+    color: var(--main-color);
+}
+.font {
+    font-size: 50px;
+    font-weight: 900;
+}
+.navbar-brand:hover {
+    color: var(--main-color);
+}
+.nav-item a{
+    font-size: 30px;
+    padding: 20px;
+    font-weight: 300;
+
+}
+.icon-brand a{
+    text-decoration: none;
+}
+.icon-brand i {
+    width: 60px;
+    height: 60px;
+    /* background-color: #2d343f; */
+    text-align: center;
+    font-size: 25px;
+    border: 1px #2d343f solid;
+    color: #dcdde1;
+    transition: all 0.5s ease-out;
+
+}
+
+.icon-brand i:hover {
+    color: #2d343f;
+    background-color: #dcdde1;
+}
+
+::placeholder {
+    color: gray !important;
+}
+
+.bor-non {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.bor-non-2 {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-color: #2d343f;
+}
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: var(--main-color);
+    outline: 0;
+    box-shadow: 0 0 0 .25rem var(--second-color);
+}
+
+.bg-foot {
+    background-color: #1C252D;
+}
+
+.text-light {
+    font-size: 30px;
+
+}
+.font-size a:hover {
+    color: var(--main-color) !important;
+}
+.font-size{
+    font-size: 24px;
+}
+.font-size a{
+    transition: all 0.5s ease-out;
+}
+.bg-carousel{
+    background-color: #EFEFEF;
+}
+
+.carousel-control-next i,.carousel-control-prev i {
+    /* padding-left: 20px; */
+    color: var(--main-color) !important;
+    font-size: 2.8em !important;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: var(--main-color) !important;
+    width: 40px;
+    height: 5px;
+}
+.col-lg-6 a{
+    color: var(--main-color);
+    font-size: 24px;
+}
+.scrol-font{
+    color: var(--main-color);
+}
+.sear-ico i{
+    font-size: 24px;
+    color: var(--second-color);
+}
+.text-color {
+    color: var(--second-color);
+    font-size:10px ;
+}
